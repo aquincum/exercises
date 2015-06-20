@@ -1,7 +1,0 @@
-var throttle = function (f){
-
-
-};
-
-
-module.exports = throttle;
