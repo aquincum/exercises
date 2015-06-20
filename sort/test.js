@@ -10,6 +10,7 @@ var sort = require('./');
 
 describe('sort', function() {
 
+
   it('will sort an array', function() {
     var arr = [5, 1, 2, 4, 3];
     nativeSortCalled = false;

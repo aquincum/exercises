@@ -30,7 +30,7 @@ var fs = require('fs');
 var indexContents = fs.readFileSync(__dirname + '/index.js').toString();
 fs.writeFileSync(__dirname + '/index__TMP__.js', indexContents + inject);
 var jasmineAsync = require(__dirname + '/index__TMP__.js');
-fs.unlinkSync(__dirname + '/index__TMP__.js');
+//fs.unlinkSync(__dirname + '/index__TMP__.js');
 
 var mochaIt = it;
 

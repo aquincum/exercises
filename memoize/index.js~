@@ -1,0 +1,10 @@
+module.export = function (f) {
+	var table = {};
+	return function (){
+		var key = arguments[0];
+		if (key === undefined){
+			return f.apply(null, arguments);
+		}
+		
+	}
+}

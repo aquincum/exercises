@@ -1,0 +1,6 @@
+module.exports = function (thunk){
+	return function (callback){
+
+
+	}
+}

@@ -1,0 +1,7 @@
+var jasmineAsync = function () {
+	console.log(arguments);
+
+}
+
+
+module.exports = jasmineAsync;
